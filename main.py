@@ -1,5 +1,4 @@
 TEXT = """
-
 1
 
 00:00:00,510 --> 00:00:08,580
@@ -26,17 +25,11 @@ So that's what we're going to start with in this lecture.
 """
 
 TEXT_NEW = ""
-free_space = 0
 
 for x in TEXT :
 	
 	if (x.isalpha() or x == " ")  :
 		TEXT_NEW = TEXT_NEW + x ;
-
-
-
-
-
 
 text_file = open("data.txt", "w")
  
